@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ana Dhaan Donation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Anna Dhaan Donation</h2>
+            <div class="details">
+                <p>Amount Donation: <span id="amountDonation">0</span></p>
+                <p>Impact: <span id="impact">0</span></p>
+                <p>Milestone: <span id="milestone">0</span></p>
+                <div class="progress-bar">
+                    <div id="progress" class="progress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- External JavaScript file -->
+</body>
+
+</html>
+
+<style>
+
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 4px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+.progress {
+    background-color: #38a169;
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+}
+</style>
